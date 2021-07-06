@@ -12,5 +12,6 @@ If you don't have python:
   - CONFIG_ID = "YOUR_TRANSFER_CONFIG_ID"
 5) fill account_servicet_keys_path with the pat of your account service keys to authenticate as a service account OR
    fill client_secret_path with the path of your client secret if you want to authenticate as end user
-6) run "py .\main.py"
+6) pass a integer to the TransferState to delete all the transfer runs that have that state (i.e 5 = FAILED, 4 = SUCCEEDED ...)
+7) run "py .\main.py"
     
