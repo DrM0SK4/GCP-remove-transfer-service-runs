@@ -14,7 +14,7 @@ client_secret_path = ""
 
 credentials = None
 
-if not account_servicet_keys_path and client_secret_path:
+if not account_servicet_keys_path and not client_secret_path:
     sys.exit("Please fill either account_servicet_keys_path or client_secret_path.")
 
 elif account_servicet_keys_path:
